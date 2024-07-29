@@ -1,6 +1,6 @@
 #product-overview {
-  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/internet.jpg") center/cover no-repeat border-box, #2e2e2e;
+  background: linear-gradient(to top, rgb(76 76 73 / 60%) 10%, transparent),
+    url(images/internet.jpg) center / cover no-repeat border-box, #2e2e2e;
   width: 100vw;
   height: 100vh;
   position: relative;
