@@ -1,33 +1,23 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/freedom.jpg") center/cover no-repeat border-box,
-    #ff1b68;
-  /* background-image: url("freedom.jpg");
-    background-size: cover;
-    background-position: left 10% bottom 20%; */
-  /* background-repeat: no-repeat;
-    background-origin: border-box;
-    background-clip: border-box; */
-  /* background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0,0,0,0.5)); */
-  /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
+    url("images/internet.jpg") center/cover no-repeat border-box, #2e2e2e;
   width: 100vw;
-  height: 33vh;
-  /* border: 5px dashed red; */
+  height: 100vh;
   position: relative;
 }
 
 #product-overview h1 {
-  color: white;
+  color: #ffffff6b;
   font-family: "Anton", sans-serif;
   position: absolute;
   bottom: 5%;
   left: 3%;
   font-size: 1.6rem;
+  letter-spacing: 1.3px;
 }
 
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
-    height: 40vh;
     background-position: 50% 25%;
   }
 
@@ -37,37 +27,44 @@
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: #333333;
   text-align: center;
 }
 
+#plans {
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 4rem;
+}
+
 .plan {
-  background: #d5ffdc;
+  background: #d3eef5;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: 0.5rem 0;
   width: 100%;
 }
 
 .plan--highlighted {
-  background: #19b84c;
+  background: #02323e;
   color: white;
 }
 
 .plan__annotation {
   background: white;
-  color: #19b84c;
+  color: #333333;
   padding: 0.5rem;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
+  box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.5);
 }
 
 .plan__title {
-  color: #0e4f1f;
+  color: #383c3f;
 }
 
 .plan__price {
-  color: #858585;
+  color: #585858;
 }
 
 .plan--highlighted .plan__title {
@@ -75,7 +72,7 @@
 }
 
 .plan--highlighted .plan__price {
-  color: #0e4f1f;
+  color: #fff;
 }
 
 .plan__features {
@@ -89,11 +86,12 @@
 }
 
 @media (min-width: 40rem) {
-  .plan__list { 
+  .plan__list {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
   }
 
   .plan {
@@ -103,20 +101,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 28rem;
+    height: 30rem;
   }
 
   .plan--highlighted {
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    height: 30rem;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.5);
+    height: 33rem;
     z-index: 50;
   }
 }
 
 #key-features {
-  background: #ff1b68;
+  background: #02171d;
   margin-top: 5rem;
   padding: 1rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 #key-features .section-title {
@@ -132,7 +135,7 @@
 }
 
 .key-feature__image {
-  background: #ffcede;
+  background: #f9feff;
   width: 128px;
   height: 128px;
   border: 2px solid #424242;
@@ -189,8 +192,8 @@
 }
 
 .modal__action {
-  border: 1px solid #0e4f1f;
-  background: #0e4f1f;
+  border: 1px solid #383c3f;
+  background: #383c3f;
   text-decoration: none;
   color: white;
   font: inherit;

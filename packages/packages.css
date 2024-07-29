@@ -25,7 +25,7 @@ main {
 .package {
     width: 80%;
     margin: 1rem 0;
-    border: 4px solid #0e4f1f;
+    border: 4px solid #383c3f;
     border-left: none;
     position: relative;
     overflow: hidden;
@@ -33,9 +33,8 @@ main {
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    border-color: #ff5454;
-    /* border-color: #ff5454 !important; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: #074859;
     animation: push-up 1s ease-out forwards;
 }
 
@@ -53,7 +52,7 @@ main {
     margin: 0;
     font-size: 0.8rem;
     color: white;
-    background: #ff5454;
+    background: #074859;
     padding: 0.5rem;
     transform: rotate(45deg) translate(3.5rem, -1rem);
     transform-origin: center;
@@ -67,8 +66,8 @@ main {
 
 .package__info {
     padding: 1rem;
-    border: 1px solid #0e4f1f;
-    color: #0e4f1f;
+    border: 1px solid #383c3f;
+    color: #383c3f;
     background: white;
     font-size: 1.2rem;
     /* font-style font-variant font-weight font-size/line-height font-family*/
@@ -86,13 +85,13 @@ main {
     background: rgba(234, 252, 237, 0.95);
     float: right;
     border-right: none;
-    border-left: 4px solid #0e4f1f;
+    border-left: 4px solid #383c3f;
     text-align: right;
 }
 
 #free:hover,
 #free:active {
-    border-left-color: #ff5454;
+    border-left-color: #074859;
 }
 
 #premium {
@@ -109,24 +108,24 @@ main {
 
 @media (min-width: 40rem) {
     main {
-      max-width: 1500px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media (min-width: 1500px) {
     .package {
-      border-left: 4px solid #0e4f1f;
+        border-left: 4px solid #383c3f;
     }
 
     #free {
-      border-right: 4px solid #0e4f1f;
+        border-right: 4px solid #383c3f;
     }
 
     #free:hover,
     #free:active {
-      border-right-color: #ff5454;
+        border-right-color: #074859;
     }
 }
 
@@ -138,7 +137,7 @@ main {
     33% {
         transform: translateY(-1.5rem);
     }
-    
+
     100% {
         transform: translateY(-1rem);
     }
