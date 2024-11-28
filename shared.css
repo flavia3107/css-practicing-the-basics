@@ -258,6 +258,25 @@ main {
   transform: translateY(0) !important;
 }
 
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d3d3d3;
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 @media (min-width: 40rem) {
   .main-footer__link {
     margin: 0 1rem;
